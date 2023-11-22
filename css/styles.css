@@ -1,0 +1,133 @@
+@font-face {
+    font-family: AvenirNext;
+    src: url(../font/AvenirNext-Regular.ttf);
+}
+body{
+    margin: 0;
+    font-family: AvenirNext;
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-item{
+    align-items: center;
+}
+
+/*-----------------------------------*/
+.justify-content{
+    justify-content: center;
+}
+.logo{
+    margin: 0px;
+    width: 350px;
+}
+.menu{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+nav ul li{
+    display: inline;
+}
+li{
+    margin-left: 20px;
+}
+header div{
+    padding: 10px 20px;
+}
+.fondo{
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
+    height: 600px;
+
+}
+.busq{
+    color: white;
+    width: 50%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+input{
+    width: 100%;
+    padding: 18px;
+    border-radius: 15px;
+    border: solid 0;
+    background-image: url(../img/icons-search.svg);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: center;
+    padding-left: 70px;
+    font-size: 18px;
+}
+.barra{
+    border: solid 3px orangered;
+    margin-left: 55px;
+}
+.bar{
+    padding: 0px;
+    height: 5px;
+    width: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.news{
+    margin: 20px 55px;
+}
+.new{
+    width: 30%;
+    height: 450px;
+    box-shadow: 0 0 14px grey;
+}
+.titulo{
+    margin-left: 55px;
+    padding: 0;
+    font-size: 30px;
+}
+.imgnew{
+   width: 387px;
+   margin-bottom: 50px;
+}
+.info{
+    width: 30%;
+    height: 650px;
+    box-shadow: 0 0 14px grey;
+    position: relative;
+}
+.infos{
+    margin: 20px 55px;
+}
+.lt-p{
+    padding: 0 20px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.btn {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 10px;
+    padding: 6px 46px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+footer{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
