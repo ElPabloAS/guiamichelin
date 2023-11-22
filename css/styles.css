@@ -69,7 +69,7 @@ input{
     font-size: 18px;
 }
 .barra{
-    border: solid 3px orangered;
+    border: solid 3px red;
     margin-left: 55px;
 }
 .bar{
@@ -130,4 +130,7 @@ footer{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 30px;
+}
+nav ul li:hover{
+    border-bottom: solid 3px red;
 }
